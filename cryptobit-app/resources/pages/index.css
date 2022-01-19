@@ -1,0 +1,29 @@
+.application-fill {
+  fill: #e6b010;
+}
+.foreground-fill {
+  fill: fb-white;
+}
+.background-fill {
+  fill: fb-black;
+}
+
+.favo #image {
+  href: "../icons/star.png";
+  fill: #242d35;
+}
+
+.list #image {
+  href: "../icons/coins.png";
+  fill: #242d35;
+}
+
+#listButton {
+  x: 60;
+  y: 155;
+}
+
+#favoButton {
+  x: 200;
+  y: 155;
+}

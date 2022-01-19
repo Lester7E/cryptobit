@@ -1,0 +1,17 @@
+<svg>
+  <gradientRect x="0" y="0" width="100%" height="100%"
+    gradient-type="radial"
+    gradient-x1="50%" gradient-y1="50%"
+    gradient-x2="50%+150" gradient-y2="50%+150"
+    gradient-color1="#242D35"
+    gradient-color2="#161A1D" />
+  <image id="up" x="39%" y="50%" width="20" height="22" href="../icons/icon-up.png" fill="#03C38D" display="none"/>
+  <image id="down" x="39%" y="51%" width="20" height="22" href="../icons/icon-down.png" fill="#EA047C" display="none"/>
+  <text id="change" fill="white" x="46%" y="56%" width="300" font-size="25" font-family="System-Regular" text-anchor="start" text-length="20" />
+  <text id="cryptoName" fill="white" x="50%" y="23%" width="300" font-size="30" font-family="System-Regular" text-anchor="middle" text-length="20" text-buffer="loading" />
+  <text id="location" fill="#e6b010" x="49%" y="43%" width="300" font-size="60" font-family="System-Regular" text-anchor="middle" text-length="20" text-buffer="loading" />
+  
+  <use id="button-1" href="#text-button" class="text-button bottom application-fill">
+    <set href="#text" attributeName="text-buffer" to="Back" />
+  </use>
+</svg>

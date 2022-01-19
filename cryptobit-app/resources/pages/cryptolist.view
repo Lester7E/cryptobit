@@ -1,0 +1,44 @@
+<svg viewport-fill="#000000">
+  <gradientRect x="0" y="0" width="100%" height="100%"
+    gradient-type="radial"
+    gradient-x1="50%" gradient-y1="50%"
+    gradient-x2="50%+150" gradient-y2="50%+150"
+    gradient-color1="#242D35"
+    gradient-color2="#161A1D" />
+
+    <text x="50%" y="50%+15"
+        font-family="System-Regular" fill="white"
+        font-size="30" font-weight="bold"
+        text-anchor="middle">Loading</text>
+
+  <use id="myList" href="#tile-list">
+    <var id="virtual" value="1" />
+    <var id="reorder-enabled" value="0"/>
+    <var id="peek-enabled" value="0"/>
+    <var id="separator-height-bottom" value="2" />
+
+    <use id="my-pool" href="#tile-list-pool">
+      <use id="my-pool[0]" href="#my-item" />
+      <use id="my-pool[1]" href="#my-item" />
+      <use id="my-pool[2]" href="#my-item" />
+      <use id="my-pool[3]" href="#my-item" />
+      <use id="my-pool[4]" href="#my-item" />
+      <use id="my-pool[5]" href="#my-item" />
+      <use id="my-pool[6]" href="#my-item" />
+      <use id="my-pool[7]" href="#my-item" />
+      <use id="my-pool[8]" href="#my-item" />
+      <use id="my-pool[9]" href="#my-item" />
+      <use id="my-pool[10]" href="#my-item" />
+      <use id="my-pool[11]" href="#my-item" />
+      <use id="my-pool[12]" href="#my-item" />
+      <use id="my-pool[13]" href="#my-item" />
+      <use id="my-pool[14]" href="#my-item" />
+      <use id="my-pool[15]" href="#my-item" />
+      <use id="my-pool[16]" href="#my-item" />
+      <use id="my-pool[17]" href="#my-item" />
+      <use id="my-pool[18]" href="#my-item" />
+      <use id="my-pool[19]" href="#my-item" />
+      <use id="my-pool[20]" href="#my-item" />
+    </use>
+  </use>
+</svg>
